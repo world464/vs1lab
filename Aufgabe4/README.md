@@ -116,14 +116,14 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
 
 ### 1. Teilaufgabe: Server-Erweiterung
 
-- [ ] Neue **Routen** realisieren (`./routers/index.js`)
-  - [ ] GET `/api/geotags`
-  - [ ] POST `/api/geotags`
-  - [ ] GET `/api/geotags/:id`
-  - [ ] PUT `/api/geotags/:id`
-  - [ ] DELETE `/api/geotags/:id`
-- [ ] **Servermodule erweitern**
-  - [ ] Klasse `InMemoryGeoTagStore` mit Primärschlüsseln für GeoTags
+- [ x] Neue **Routen** realisieren (`./routers/index.js`)
+  - [ x] GET `/api/geotags`
+  - [x ] POST `/api/geotags`
+  - [x ] GET `/api/geotags/:id`
+  - [x ] PUT `/api/geotags/:id`
+  - [ x] DELETE `/api/geotags/:id`
+- [ x] **Servermodule erweitern**
+  - [ x] Klasse `InMemoryGeoTagStore` mit Primärschlüsseln für GeoTags
 - [ ] Backend **Demonstrator** mit **generischem HTTP-Client**
   - [ ]  **Lebenszyklus** für GeoTag vorführen: Erstellen, Auslesen, Ändern, Suchen, Löschen
 
